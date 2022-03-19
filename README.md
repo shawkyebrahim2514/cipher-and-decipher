@@ -1,12 +1,12 @@
 # 10 cipher and decipher programs
-the file contain 10 cipher and decipher prograsm that in Assignment 2 FCAI CU
+the file contain 10 cipher and decipher programs that in Assignment 2 FCAI CU
 
 ## 0. Affine Cipher
 >In affine cipher each letter in an alphabet is mapped to its numeric equivalent, encrypted using a simple mathematical function, and converted back to a letter, Each letter is encrypted with the function (5x + 8) mod 26, The decryption function is 21(y - 8) mod 26
-<details><summary>show how it work</summary>
+<details><summary>show how it works</summary>
 <p>
 
-#### program requires a message and a, b, c integer numbers
+#### important
 
       takes three parameters a, b and c and does the encryption and decryption according to these equations:
       E(x) = (a x + b) mod 26 where x is the letter to cipher.
@@ -16,7 +16,7 @@ the file contain 10 cipher and decipher prograsm that in Assignment 2 FCAI CU
 </p>
 <p>
 
-#### Example
+#### program requires a message, three integers numbers(a, b, c)
 
       message: i love cpp
       a: 1
@@ -29,7 +29,7 @@ the file contain 10 cipher and decipher prograsm that in Assignment 2 FCAI CU
 
 ## 1. Caesar Cipher
 >It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter at some fixed number of positions down the alphabet
-<details><summary>show how it work</summary>
+<details><summary>show how it works</summary>
 <p>
 
 #### program requires a message and the number of shifts
@@ -44,7 +44,7 @@ the file contain 10 cipher and decipher prograsm that in Assignment 2 FCAI CU
 
 ## 2. Atbash Cipher
 >(called mirror code) it simply reverses the alphabets, so A encodes to Z, B to Y and so on.
-<details><summary>show how it work</summary>
+<details><summary>show how it works</summary>
 <p>
 
 #### program only requires a message
@@ -59,7 +59,7 @@ the file contain 10 cipher and decipher prograsm that in Assignment 2 FCAI CU
 ## 3. Vignere Cipher
 >In this method, a keyword is repeatedly added character by character to each alphabetic letter in the original message. The addition is carried out using the ASCII codes for each of the characters, modulo 26, and the result is added to the code for the letter 'A' in the ASCII code sequence
 >Only alphabetic characters will be encoded, all other characters will be outputted unchanged, keyword is only alphabetic characters, All alphabetic characters should be converted to uppercase before the encoding process begins, The input message should be restricted to 80 characters, the keyword to 8 characters
-<details><summary>show how it work</summary>
+<details><summary>show how it works</summary>
 <p>
 
 #### program requires a message and a keyword
@@ -74,7 +74,8 @@ the file contain 10 cipher and decipher prograsm that in Assignment 2 FCAI CU
 
 ## 4. Baconian Cipher
 >each letter of the plaintext is replaced by a group of five of the letters 'A' or 'B'. This replacement is a binary encoding.
-<details><summary>show how it work</summary>
+![Baconian Cipher](/Images/baconian-cipher.png)
+<details><summary>show how it works</summary>
 <p>
 
 #### program requires a message
@@ -97,10 +98,10 @@ the file contain 10 cipher and decipher prograsm that in Assignment 2 FCAI CU
       ciphered alphabets: Z E B R A C D F G H I J K L M N O P Q S T U V W X Y
 
 </p>
-<details><summary>show how it work</summary>
+<details><summary>show how it works</summary>
 <p>
 
-#### program requires a message
+#### program requires a message and a key
 
       message: i love cpp
       key: ZEBRA
@@ -113,7 +114,8 @@ the file contain 10 cipher and decipher prograsm that in Assignment 2 FCAI CU
 ## 6. Polybius Square Cipher
 >A Polybius Square is a table that allows someone to convert letters into numbers, take a key with 5 chaarcters and make it as a row and a column
 >To decipher the message, you must enter the same key used to encrypt it, Note that I/J are encrypted to the same numbers by when decrypted, we take I since it is more common
-<details><summary>show how it work</summary>
+![Polybius Square Cipher](/Images/polybius-square.png)
+<details><summary>show how it works</summary>
 <p>
 
 #### program requires a message
@@ -127,7 +129,7 @@ the file contain 10 cipher and decipher prograsm that in Assignment 2 FCAI CU
 
 ## 7. Morse Code
 >It is a code consisting of two symbols dot and dash and used to in the telegraph system in the past and also communicate messages in primitive ways
-<details><summary>show how it work</summary>
+<details><summary>show how it works</summary>
 <p>
 
 #### program only requires a message
@@ -141,7 +143,7 @@ the file contain 10 cipher and decipher prograsm that in Assignment 2 FCAI CU
 
 ## 8. XOR Cipher
 >a secret key consisting of one letter is give. Then each letter of the message goes through XOR operation with the secret letter, The output is printed in text and hexadecimal. The original message can be recovered from the encrypted message by the same algorithm, XOR with the secret letter
-<details><summary>show how it work</summary>
+<details><summary>show how it works</summary>
 <p>
 
 #### program requires a message and a key
@@ -171,7 +173,7 @@ the file contain 10 cipher and decipher prograsm that in Assignment 2 FCAI CU
 
 </p>
 
-<details><summary>show how it work</summary>
+<details><summary>show how it works</summary>
 <p>
 
 #### program requires a message and a key
