@@ -73,7 +73,7 @@ the file contain 10 cipher and decipher programs that in Assignment 2 FCAI CU
 
 
 ## 4. Baconian Cipher
-![Baconian Cipher](/Images/baconian-cipher.png)
+![Baconian Cipher](/console/Images/baconian-cipher.png)
 >each letter of the plaintext is replaced by a group of five of the letters 'A' or 'B'. This replacement is a binary encoding.
 <details><summary>show how it works</summary>
 <p>
@@ -112,7 +112,7 @@ the file contain 10 cipher and decipher programs that in Assignment 2 FCAI CU
 
 
 ## 6. Polybius Square Cipher
-![Polybius Square Cipher](/Images/polybius-square.png)
+![Polybius Square Cipher](/console/Images/polybius-square.png)
 >A Polybius Square is a table that allows someone to convert letters into numbers, take a key with 5 chaarcters and make it as a row and a column
 >To decipher the message, you must enter the same key used to encrypt it, Note that I/J are encrypted to the same numbers by when decrypted, we take I since it is more common
 <details><summary>show how it works</summary>
