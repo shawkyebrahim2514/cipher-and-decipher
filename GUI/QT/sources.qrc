@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Images/Affine Cipher input.png</file>
+        <file>Images/take input.png</file>
+        <file>Images/mainwindow.png</file>
+        <file>Images/window icon.png</file>
+    </qresource>
+</RCC>
